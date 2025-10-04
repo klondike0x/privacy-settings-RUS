@@ -1,4 +1,4 @@
-## Contents
+## Содержание
 - [Privacy Settings](#privacy-settings)
 - [Extension Settings](#extension-settings)
 - [Changelog](#changelog)
@@ -13,8 +13,8 @@
 
 
 
-## Privacy Settings
-<!-- Keep the list alphabetically ordered -->
+## Настройки конфиденциальности
+<!-- Сохраняйте список в алфавитном порядке -->
 
 - <img src="icons/amazon.svg" width="20" align="top"> [Amazon](https://github.com/StellarSand/privacy-settings/blob/main/Privacy%20Settings/Amazon.md)
 - <img src="icons/android.svg" width="20" align="bottom"> [Android 11](https://github.com/StellarSand/privacy-settings/blob/main/Privacy%20Settings/Android-11.md)
@@ -72,7 +72,7 @@
 
 
 
-## Extension Settings
+## Настройки расширения
 <img src="icons/ublock.svg" width="20" align="center"> [uBlock Origin](https://github.com/StellarSand/privacy-settings/blob/main/Extensions%20Settings/uBlock-Origin.md)
 
 <details>
@@ -85,55 +85,54 @@
 
 
 
-## Changelog
-All notable changes are accounted in the [changelog](https://github.com/StellarSand/privacy-settings/blob/main/CHANGELOG.md).
+## История изменений
+Все заметные изменения учтены в [changelog](https://github.com/StellarSand/privacy-settings/blob/main/CHANGELOG.md).
 
 
 
 ## FAQs
 
-#### Will following the settings mentioned here ensure complete privacy?
-Following these settings can significantly minimize data collection and tracking by the mentioned services/software, but absolute privacy and security on the internet are difficult to achieve. Even with these settings, there may still be some level of data collection or tracking. It is advisable to explore and utilize privacy-respecting alternatives whenever possible for enhanced privacy.
+#### Обеспечит ли соблюдение указанных здесь настроек полную конфиденциальность?
+Соблюдение этих настроек может значительно минимизировать сбор и отслеживание данных упомянутыми службами/программным обеспечением, но абсолютную конфиденциальность и безопасность в Интернете трудно обеспечить. Даже при использовании этих настроек сбор данных или отслеживание могут осуществляться в определенной степени. Для повышения уровня конфиденциальности рекомендуется по возможности изучить и использовать альтернативы, обеспечивающие ее соблюдение.
 
-#### Why are privacy invading services like Facebook, Google, Zoom etc. mentioned here if this repo is focused on privacy?
-Although the aim of this repo is to promote privacy, there may be instances where the use of privacy-invading services/software is necessary. For example, using Zoom for work meetings or a social media platform for business purposes. The goal here is to minimize data collection and enhance digital privacy as much as possible, even when using privacy-invading services/software. However, it is highly encouraged to explore and adopt better privacy-respecting alternatives whenever available and suitable for your needs.
+#### Почему здесь упоминаются сервисы, нарушающие конфиденциальность, такие как Facebook, Google, Zoom и т. д., если этот репозиторий ориентирован на конфиденциальность?
+Хотя цель этого репозитория — продвижение конфиденциальности, могут быть случаи, когда использование сервисов/программного обеспечения, нарушающих конфиденциальность, необходимо. Например, использование Zoom для рабочих встреч или платформы социальных сетей для деловых целей. Цель состоит в том, чтобы свести к минимуму сбор данных и максимально повысить уровень цифровой конфиденциальности, даже при использовании сервисов/программного обеспечения, нарушающих конфиденциальность. Тем не менее настоятельно рекомендуется изучить и использовать более эффективные альтернативы, обеспечивающие конфиденциальность, если они доступны и соответствуют вашим потребностям.
 
-#### The settings for a particular software/service was updated months ago, when will it be updated according to latest version?
-Settings don't always require updates with every new version. They will only be updated if there are significant changes.
-<br>Check out the [changelog](https://github.com/StellarSand/privacy-settings/blob/main/CHANGELOG.md) for all the changes.
-
-
-
-## Privacy Best Practices
-- Create [strong passwords](https://en.wikipedia.org/wiki/Password_strength) (preferably 10+ characters with a mix of letters, numbers, and special characters).
-- Avoid reusing passwords.
-- Utilize a [password manager](https://en.wikipedia.org/wiki/Password_manager) to generate and securely store unique passwords.
-- Enable [multi-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) for added security.
-- Opt for privacy respecting alternatives for search engines, browsers, emails etc.
-- Utilize [End-to-End Encrypted (E2EE)](https://en.wikipedia.org/wiki/End-to-end_encryption) messaging services.
-- Follow the privacy settings recommended here.
-- Keep your apps and operating system updated.
-- Encrypt your devices for enhanced security.
-- Perform regular backups of your data.
-- Use open-source software and apps whenever possible (open-source doesn't always necessarily mean secure).
-- Regularly review and revoke unnecessary permissions for software and apps.
-- Share information sparingly & only provide what is necessary.
-- Consider using false information when appropriate (Never provide false information to legal entities, law enforcement, medical professionals, banks, etc.).
-- Educate others and raise awareness about digital privacy. Spread the word!
+#### Настройки для определенного программного обеспечения/сервиса были обновлены несколько месяцев назад. Когда они будут обновлены в соответствии с последней версией?
+Настройки не всегда требуют обновления с каждой новой версией. Это происходит только в случае значительных изменений.
+<br>Посмотрите [журнал изменений](https://github.com/StellarSand/privacy-settings/blob/main/CHANGELOG.md) для всех изменений.
 
 
+## Рекомендации по обеспечению конфиденциальности
+— Создавайте [надежные пароли](https://en.wikipedia.org/wiki/Password_strength) (желательно более 10 символов, включая буквы, цифры и специальные символы).
+- Не используйте пароли повторно.
+- Используйте [менеджер паролей](https://en.wikipedia.org/wiki/Password_manager) для создания и безопасного хранения уникальных паролей.
+— Включите [многофакторную аутентификацию](https://en.wikipedia.org/wiki/Multi-factor_authentication) для дополнительной безопасности.
+- Выбирайте альтернативы для поисковых систем, браузеров, электронной почты и т. д., которые обеспечивают конфиденциальность.
+— Используйте службы обмена сообщениями с [сквозным шифрованием (E2EE)](https://en.wikipedia.org/wiki/End-to-end_encryption).
+— Используйте рекомендуемые здесь настройки конфиденциальности.
+— Обновляйте приложения и операционную систему.
+— Шифруйте устройства для повышения безопасности.
+— Регулярно создавайте резервные копии данных.
+— По возможности используйте программное обеспечение и приложения с открытым исходным кодом (открытый исходный код не всегда означает безопасность).
+— Регулярно проверяйте и отзывайте ненужные разрешения для программного обеспечения и приложений.
+— Делитесь информацией с осторожностью и предоставляйте только то, что необходимо.
+— Используйте ложную информацию, когда это уместно (никогда не предоставляйте ложную информацию юридическим лицам, правоохранительным органам, медицинским работникам, банкам и т. д.).
+— Просвещайте других и повышайте осведомленность о цифровой конфиденциальности. Рассказывайте об этом!
 
-## Additional Resources
-For better privacy respecting alternatives, reviews and more information, check out:
 
-#### Recommendations, alternatives & reviews
+
+## Дополнительные ресурсы
+Для получения информации об альтернативных вариантах, которые лучше защищают конфиденциальность, а также обзоров и дополнительной информации, ознакомьтесь с:
+
+#### Рекомендации, альтернативы и отзывы
 - [Privacy Guides](https://www.privacyguides.org/en/tools/)
 - [Techlore Resources](https://www.techlore.tech/resources#all-resources)
 - [PRISM Break](https://prism-break.org/)
 - [Awesome Privacy](https://github.com/pluja/awesome-privacy)
 - [Privacy Respecting](https://github.com/nikitavoloboev/privacy-respecting)
 
-#### Privacy news, blogs, guides & more
+#### Новости, блоги, руководства и многое другое
 - [EFF](https://www.eff.org/)
 - Mozilla: [Privacy & Security](https://blog.mozilla.org/en/category/privacy-security/), [Privacy Not Included](https://foundation.mozilla.org/en/privacynotincluded/)
 - [Spread Privacy](https://spreadprivacy.com/)
@@ -161,21 +160,20 @@ For better privacy respecting alternatives, reviews and more information, check 
 
 
 
-## Contributing
-If you want to help out with the project, here are some ideas:
+## Внесение своего вклада
+Если вы хотите помочь с проектом, вот несколько идей:
 
-- iOS/macOS privacy settings.
-- Suggest new services/software or help improve the existing ones.
-- Translate it to your own language.
-
-Pull requests can be submitted [here](https://github.com/StellarSand/privacy-settings/pulls).
-
-
-
-## Credits
-- [Contributors](https://github.com/StellarSand/privacy-settings/graphs/contributors) for making this project better.
+- Настройки конфиденциальности iOS/macOS.
+- Предложите новые сервисы/программное обеспечение или помогите улучшить существующие.
+- Переведите на свой родной язык.
+  
+Запросы на включение внесенных изменений можно отправлять [здесь](https://github.com/StellarSand/privacy-settings/pulls).
 
 
+## Благодарность
+- [Участники](https://github.com/StellarSand/privacy-settings/graphs/contributors) за улучшение этого проекта.
 
-## License
-This project is licensed under the terms of [MIT License](https://github.com/StellarSand/privacy-settings/blob/main/LICENSE), except for the icons which are owned by their respective trademark holders and are subject to their own licenses.
+
+
+## Лицензия
+Этот проект лицензирован в соответствии с условиями [лицензии MIT](https://github.com/StellarSand/privacy-settings/blob/main/LICENSE), за исключением значков, которые принадлежат их соответствующим владельцам товарных знаков и подлежат их собственным лицензиям.
