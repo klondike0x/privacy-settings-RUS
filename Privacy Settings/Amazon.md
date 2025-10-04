@@ -1,48 +1,48 @@
-# <img src="../icons/amazon.svg" width="42" align="top"> Amazon Privacy Settings
+# <img src="../icons/amazon.svg" width="42" align="top"> Настройки конфиденциальности Amazon
 
-Login to Amazon from browser.
+Войдите в Amazon из браузера.
 
-From top right go to Account & Lists > Your Account
+Справа вверху перейдите в раздел Учетная запись и списки > Ваша учетная запись
 
 
 
-## Login & security
+## Вход в систему и безопасность
 
-#### Two-Step Verification (2SV) Settings
-- Edit > Get Started > select Authenticator App > Scan the barcode using an authenticator app > Enter 6 digit code > Verify OTP and continue > uncheck Don't require OTP on this browser > Turn on
+#### Настройки двухэтапной проверки (2SV)
+- Редактировать > Начать > выбрать приложение Authenticator > Отсканировать штрих-код с помощью приложения authenticator > Ввести 6-значный код > Подтвердить OTP и продолжить > снять флажок Не требовать OTP в этом браузере > Включить
 
-> <img src="../icons/ic_note.svg" width="22" align="top"> **Note**
+> <img src="../icons/ic_note.svg" width="22" align="top"> **Примечание**
 >
-> Use a privacy respecting authenticator app. Check out [recommendations, alternatives & reviews](https://github.com/StellarSand/privacy-settings#recommendations-alternatives--reviews).
+> Используйте приложение для проверки подлинности, уважающее конфиденциальность. Ознакомьтесь с [рекомендациями, альтернативами и отзывами](https://github.com/StellarSand/privacy-settings#recommendations-alternatives--reviews).
 
 
 
-## Ordering and shopping preferences
+## Настройки оформления заказов и покупок
 
-#### Lists
-- On right, More > Manage Lists
-- Privacy: Private
-- Remove Recipient, E-mail, Description
-- Birthday: Select Month, Day from options
-- Delivery Address: None
+#### Списки
+- Справа, Подробнее > Управление списками
+- Конфиденциальность: Личные данные
+- Удалить получателя, адрес электронной почты, описание
+- День рождения: Выберите месяц, день из списка опций
+- Адрес доставки: Нет
 
-Do the above for each list.
+Выполните вышеуказанные действия для каждого списка.
 
-#### Profile
-Click on Edit your public profile
-- Your public name: Provide false info
-- Your public information (optional): Remove everything
-- Add social links to your public profile (optional): Remove everything
-
-
-
-## Email alerts, messages, and ads
-
-#### Advertising preferences
-- select Do not show me interest-based ads provided by Amazon
+#### Профиль
+Нажмите "Изменить свой публичный профиль"
+- Ваше публичное имя: Укажите ложную информацию
+- Ваша публичная информация (необязательно): Удалите все
+- Добавьте социальные ссылки в свой публичный профиль (необязательно): Удалите все
 
 
 
-## Browsing History
-- On the upper menu under the search bar, go to Browsing History > View and Edit
-- On right, Manage History > Turn Browsing History: Off
+## Оповещения по электронной почте, сообщения и рекламу
+
+#### Настройки рекламы
+- выберите "Не показывать мне рекламу по интересам", предоставляемую Amazon
+
+
+
+## История просмотров
+- В верхнем меню под строкой поиска выберите "История просмотров" > "Просмотр и редактирование"
+- Справа "Управление историей" > "Отключить историю просмотров".
