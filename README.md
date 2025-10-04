@@ -76,7 +76,7 @@
 <img src="icons/ublock.svg" width="20" align="center"> [uBlock Origin](https://github.com/StellarSand/privacy-settings/blob/main/Extensions%20Settings/uBlock-Origin.md)
 
 <details>
-  <summary><b>Download uBlock Origin</b></summary> 
+  <summary><b>Скачать uBlock Origin</b></summary> 
   
   - [Google Chrome/Chromium based browsers (Desktop)](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
   - [Firefox Desktop](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) (для `Firefox Mobile` и `Fennec` проверьте "Настройки" > "Расширения".)
