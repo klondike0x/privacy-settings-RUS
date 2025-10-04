@@ -16,7 +16,7 @@
 ## Настройки конфиденциальности
 <!-- Сохраняйте список в алфавитном порядке -->
 
-- <img src="icons/amazon.svg" width="20" align="top"> [Amazon](https://github.com/StellarSand/privacy-settings/blob/main/Privacy%20Settings/Amazon.md)
+- <img src="icons/amazon.svg" width="20" align="top"> [Amazon](https://github.com/klondike0x/privacy-settings-RUS/blob/main/Privacy%20Settings/Amazon.md)
 - <img src="icons/android.svg" width="20" align="bottom"> [Android 11](https://github.com/StellarSand/privacy-settings/blob/main/Privacy%20Settings/Android-11.md)
 - <img src="icons/android.svg" width="20" align="bottom"> [Android 12/12.1](https://github.com/StellarSand/privacy-settings/blob/main/Privacy%20Settings/Android-12.md)
 - <img src="icons/android.svg" width="20" align="bottom"> [Android 13](https://github.com/StellarSand/privacy-settings/blob/main/Privacy%20Settings/Android-13.md)
