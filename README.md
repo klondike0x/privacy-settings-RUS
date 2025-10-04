@@ -79,7 +79,7 @@
   <summary><b>Download uBlock Origin</b></summary> 
   
   - [Google Chrome/Chromium based browsers (Desktop)](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-  - [Firefox Desktop](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) (for `Firefox Mobile` & `Fennec` check in `Settings` > `Extensions`)
+  - [Firefox Desktop](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) (для `Firefox Mobile` и `Fennec` проверьте "Настройки" > "Расширения".)
   - [Microsoft Edge Desktop](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
 </details>
 
