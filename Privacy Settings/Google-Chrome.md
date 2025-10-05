@@ -1,90 +1,91 @@
-# <img src="../icons/google_chrome.svg" width="42" align="top"> Google Chrome Privacy Settings
+# <img src="../icons/google_chrome.svg" width="42" align="top"> Настройки конфиденциальности Google Chrome
 
-**Following settings also apply to Ungoogled Chromium, except where mentioned otherwise.**
+**Следующие настройки также применимы к Ungoogled Chromium, если не указано иное.**
 
-Go to Settings.
-
-
-
-## You and Google
-
-#### Sync and Google services
-- Allow Chrome/Chromium sign-in: Off
-- Help improve Chrome's features and performance: Off (Does not apply to Ungoogled Chromium)
-- Make searches and browsing better: Off
-- Enhanced spell check: Off (Does not apply to Ungoogled Chromium)
-- Improve search suggestions: Off
+Перейдите в «Настройки».
 
 
 
-## Autofill and passwords
+## Вы и Google
 
-#### Google Password Manager
-- Settings >
-  - Offer to save passwords and passkeys: Off
-  - Sign in automatically: Off
+#### Синхронизация и сервисы Google
+- Разрешить вход в Chrome/Chromium: Выключено
+- Помогите улучшить функции и производительность Chrome: Выключено (Не относится к Ungoogled Chromium)
+- Улучшить поиск и навигацию: Выключено
+- Улучшенная проверка орфографии: Выключено (Не относится к Ungoogled Chromium)
+- Улучшить поисковые подсказки: Выкл.
+
+
+
+## Автозаполнение и пароли
+
+#### Менеджер паролей Google
+- Настройки >
+  - Предлагать сохранять пароли и ключи доступа: Выключено
+  - Автоматический вход: Выключено
+
+> <img src="../icons/ic_note.svg" width="22" align="top"> **Примечание**
+>
+> Примечание Никогда не сохраняйте пароли в браузерах. Вместо этого используйте менеджер паролей. Ознакомьтесь с [рекомендациями, альтернативами и обзорами](https://github.com/StellarSand/privacy-settings#recommendations-alternatives--reviews).
+
+#### Способы оплаты
+- Сохранять и заполнять способы оплаты: Выкл.
+- Разрешить сайтам проверять, сохранены ли у вас способы оплаты: Выкл.
 
 > <img src="../icons/ic_note.svg" width="22" align="top"> **Note**
 >
-> Never save passwords in browsers. Use a password manager instead. Check out [recommendations, alternatives & reviews](https://github.com/StellarSand/privacy-settings#recommendations-alternatives--reviews).
+> Никогда не сохраняйте платежную информацию в браузерах. Менеджер паролей также можно использовать для сохранения платежной информации.
 
-#### Payment methods
-- Save and fill payment methods: Off
-- Allow sites to check if you have payment methods saved: Off
-
-> <img src="../icons/ic_note.svg" width="22" align="top"> **Note**
->
-> Never save payment info in browsers. A password manager can be used to also save payment information.
-
-#### Addresses and more
-- Save and fill addresses: Off
+#### Адреса и другое
+- Сохранять и заполнять адреса: Выкл.
 
 
 
-## Privacy and security
+## Конфиденциальность и безопасность
 
-#### Third-party cookies
-- Block third-party cookies
-  - Allow related sites to see your activity in the group: Off
-- Send a "Do Not Track" request with your browsing traffic: Off
+#### Сторонние файлы cookie
+- Блокировать сторонние файлы cookie
+  - Разрешить связанным сайтам видеть вашу активность в группе: Выключено
+- Отправьте запрос "Не отслеживать" вместе с вашим трафиком просмотра: Выключено
 
-#### Ads privacy
-- Ad topics: Off
-- Site-suggested ads: Off
-- Ads measurement: Off
+#### Конфиденциальность рекламы
+- Темы рекламы: Отключено
+- Реклама, предложенная сайтом: Выкл.
+- Измерение рекламы: Отключено
 
-#### Security
-- Standard Protection
-  - Help improve security on the web for everyone: Off
-- Always use secure connections: On
-- Use secure DNS: On
-- Select DNS provider: `NextDNS`/`Cloudflare`, or select `Add custom DNS service provider` and provide URL for other secure DNS from [this list](https://www.privacyguides.org/en/dns/#recommended-providers)
-<br>Example: For Quad9, enter https://dns.quad9.net/dns-query
-- Manage V8 security: Don’t allow sites to use the V8 optimizer
+#### Безопасность
+- Стандартная защита
+  - Помогите улучшить безопасность в интернете для всех: Отключено
+- Всегда использовать безопасные соединения: Вкл.
+- Использовать безопасный DNS: Вкл.
+- Всегда используйте безопасные соединения: Включить безопасный DNS: - Выберите поставщика DNS: `NextDNS`/`Cloudflare`, или выберите `Добавить пользовательского поставщика DNS-услуг` и укажите URL-адрес другого безопасного DNS из [этого списка](https://www.privacyguides.org/en/dns/#recommended-providers). Пример: Для Quad9 введите https://dns.quad9.net/dns-query
+- Управление безопасностью V8: Не разрешать сайтам использовать оптимизатор V8
 
-#### Site Settings
-- Additional permissions > Your device use > Don't allow sites to know when you're actively using your device
-- Additional content settings > Intrusive ads > Ads are blocked on sites known to show intrusive or misleading ads
-- Automatically remove permissions from unused sites: On
-
-
-
-## Performance
-
-#### Speed
-- Preload pages: Off
+#### Настройки сайта
+- Дополнительные разрешения > Ваше устройство использует > Не разрешать сайтам узнавать, когда вы активно используете свое устройство.
+- Дополнительные настройки контента > Навязчивая реклама > Реклама блокируется на сайтах, известных показом навязчивой или вводящей в заблуждение рекламы.
+- Автоматически удалять разрешения с неиспользуемых сайтов: Вкл.
 
 
 
-## Search engine
-- Search engine > Change > `DuckDuckGo` or add any other privacy respecting search engine from `Manage search engines and site search`.
+## Производительность
+
+#### Скорость
+- Предзагрузка страниц: Выкл.
 
 
 
-## Languages
-- Spell check: Off
+## Поисковая система
+- Поисковая система > Изменить > `DuckDuckGo` или добавить любую другую поисковую систему, уважающую конфиденциальность, из раздела "Управление поисковыми системами и поиском по сайтам".
 
 
 
-## Downloads
-- Ask where to save each file before downloading: On
+## Языки
+- Проверка орфографии: Выкл.
+
+
+
+
+
+## Загрузки
+- Спрашивать, куда сохранить каждый файл перед загрузкой: Вкл.
