@@ -1,13 +1,12 @@
-# <img src="../icons/android_studio.svg" width="42" align="top"> Android Studio Privacy Settings
+# <img src="../icons/android_studio.svg" width="42" align="top"> Android Studio — Настройки конфиденциальности
 
-Go to File > Settings
+Перейдите в **File → Settings**
 
+---
 
+## ⚙️ Appearance & Behavior
 
-## Appearance & Behavior
+### System Settings → Data Sharing
+- Отправка статистики использования: **Выкл**
 
-#### System Settings
-- Data Sharing >
-    - Send usage statistics: Off
-
-Click `OK`
+Нажмите `OK`
