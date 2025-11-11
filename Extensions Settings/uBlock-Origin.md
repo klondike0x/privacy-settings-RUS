@@ -1,30 +1,36 @@
-# uBlock Origin Settings
+# Настройки uBlock Origin
 
-Click on the extension on toolbar, click gear icon at the bottom right
+Нажмите на расширение на панели инструментов, затем на значок шестерёнки внизу справа.
 
+## Настройки
+- Скрывать заполнители заблокированных элементов: Вкл
+- Показывать количество заблокированных запросов на значке: Вкл
+- Использовать контекстное меню, где это уместно: Вкл
 
+#### Конфиденциальность
+- Включить всё
 
-## Settings
-- Hide placeholders of blocked elements: On
-- Show the number of blocked requests on the icon: On
-- Make use of context menu where appropriate: On
+## Списки фильтров
+- Автоматически обновлять списки фильтров: Вкл
+- Приостанавливать сетевую активность, пока все списки фильтров не загружены: Вкл
+- Разбирать и применять косметические фильтры: Вкл
+- Включить всё для категорий:  
+  - `Встроенные`  
+  - `Реклама`  
+  - `Конфиденциальность`  
+  - `Защита от вредоносных программ, безопасность`  
+  - `Многоцелевые`  
+  - `Раздражающие элементы`
 
-#### Privacy
-- Enable everything
+#### Импорт
+Скопируйте следующие URL-адреса и вставьте их в предоставленное текстовое поле:
 
+- Удаление ненужных параметров из URL:  
+  https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt  
 
-
-## Filter lists
-- Auto-update filter lists: On
-- Suspend network activity until all filter lists are loaded: On
-- Parse and enforce cosmetic filters: On
-- Enable everything for `Built-in`, `Ads`, `Privacy`, `Malware protection, security`, `Multipurpose` & `Annoyances`
-
-#### Import
-Copy the following URLs & paste them in the text field provided
-- Remove unnecessary parameters from URLs: https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
-- Hide YouTube Shorts (optional): https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt
+- Скрытие YouTube Shorts (необязательно):  
+  https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt  
 
 ---
 
-Click `Apply changes`. Also click `Update now`, if available.
+Нажмите `Применить изменения`. Также нажмите `Обновить сейчас`, если доступно.
