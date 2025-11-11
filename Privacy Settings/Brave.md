@@ -1,140 +1,127 @@
-# <img src="../icons/brave.svg" width="42" align="top"> Brave Browser Desktop Privacy Settings
+# <img src="../icons/brave.svg" width="42" align="top"> Brave Browser Desktop — Настройки конфиденциальности
 
-Go to Settings
-
-
-
-## Appearance
-- Show Brave News button: Off
-- Show Leo AI button: Off
-- Show Brave Rewards button: Off
-- Show Brave Wallet button: Off
-- Show autocomplete suggestions in address bar >
-  - Top sites: Off
-  - Leo AI Assistant: Off
-- Always show full URLs: On
-
-
-
-## Shields
-- Trackers & ads blocking: Aggressive
-- Upgrade connections to HTTPS: Strict
-- Block fingerprinting: On
-- Block cookies: Block third-party cookies
-
-
-
-## Privacy and security
-- Security >
-  - Standard protection
-  - Use secure DNS: On
-  - Select DNS provider: `NextDNS`/`Cloudflare`, or select `Add custom DNS service provider` and provide URL for other secure DNS from [this list](https://www.privacyguides.org/en/dns/#recommended-providers)
-  <br>Example: For Quad9, enter https://dns.quad9.net/dns-query
-  - Manage V8 security: Don’t allow sites to use the V8 optimizer
-
-- Site and Shields Settings > Additional permissions >
-  - Ethereum: Block sites from accessing the Ethereum provider API
-  - Solana: Block sites from accessing the Solana provider API
-
-- Use Google services for push messaging: Off
-- Auto-redirect AMP pages: On
-- Auto-redirect tracking URLs: On
-- Prevent sites from fingerprinting me based on my language preferences: On
-- Send a "Do Not Track" Request with your browser traffic: Off
-- Block Microsoft Recall: On
-
-#### Data collection
-- Allow privacy-preserving product analytics (P3A): Off
-- Automatically send daily usage ping to Brave: Off
-- Automatically send diagnostic reports: Off
-- Survey Panelist >
-  - Allow Brave surveys: Off
-
-
-
-## Web3
-
-#### Wallet
-- Enable NFT discovery: Off
-- Enable Brave Wallet in Private Windows: Off
-
-#### Web3 Domains
-- Resolve Unstoppable Domains domain names: Disabled
-- Resolve Ethereum Name Service (ENS) domain names: Disabled
-- Resolve Solana Name Service (SNS) domain names: Disabled
-
-
-
-## Leo
-- Show Leo icon in the sidebar: Off
-- Show Leo in context menu on websites: Off
-- Tab Focus Mode: Off
-
-
-
-## Search engine
-- Normal window: `DuckDuckGo`/`Brave`/`Startpage` or add any other 
-privacy respecting search engine from `Manage search engines and site search`.
-- Private window: `DuckDuckGo`/`Brave`/`Startpage` or add any other 
-privacy respecting search engine from `Manage search engines and site search`.
-- Show search suggestions: Off
-- Web Discovery Project: Off
-
-
-
-## Autofill and passwords
-
-#### Password Manager
-- Settings >
-  - Offer to save passwords and passkeys: Off
-  - Sign in automatically: Off
-
-> <img src="../icons/ic_note.svg" width="22" align="top"> **Note**
->
-> Never save passwords in browsers. Use a password manager instead. Check out [recommendations, alternatives & reviews](https://github.com/StellarSand/privacy-settings#recommendations-alternatives--reviews).
-
-#### Payment methods
-- Save and fill payment methods: Off
-- Allow sites to check if you have payment methods saved: Off
-
-> <img src="../icons/ic_note.svg" width="22" align="top"> **Note**
->
-> Never save payment info in browsers. A password manager can be used to also save payment information.
-
-#### Addresses and more
-- Save and fill addresses: Off
-
-#### Allow auto-fill in private windows
-- Off
-
-
-
-## Languages
-- Spell check: Off
-
-
-
-## Downloads
-- Ask where to save each file before downloading: On
-
+Перейдите в **Settings**
 
 ---
 
+## 🎨 Appearance (Внешний вид)
+- Кнопка Brave News: **Выкл**  
+- Кнопка Leo AI: **Выкл**  
+- Кнопка Brave Rewards: **Выкл**  
+- Кнопка Brave Wallet: **Выкл**  
+- Автозаполнение в адресной строке → Топ‑сайты: **Выкл**  
+- Leo AI Assistant: **Выкл**  
+- Всегда показывать полный URL: **Вкл**
 
-## Brave Rewards
-To disable Brave Rewards go to `brave://rewards` using the URL bar on top.
-<br>If it is currently enabled, click on `Reset (with gear icon)` on top > select the checkbox > click `Reset`
+---
 
+## 🛡️ Shields
+- Блокировка трекеров и рекламы: **Aggressive**  
+- Обновлять соединения до HTTPS: **Strict**  
+- Блокировка отпечатков (fingerprinting): **Вкл**  
+- Cookies: **Блокировать сторонние cookies**
 
-## Additional settings
-Open a new tab. Click on `Customize` at the bottom
+---
 
-#### Background Image
-- Show Sponsored Images: Off
+## 🔒 Privacy and Security
+- Защита: **Standard protection**  
+- Использовать защищённый DNS: **Вкл**  
+- Провайдер: `NextDNS` / `Cloudflare` или выбрать «Add custom DNS service provider» и указать URL из [списка](https://www.privacyguides.org/en/dns/#recommended-providers)  
+  Пример: для Quad9 — `https://dns.quad9.net/dns-query`  
+- Manage V8 security → Не разрешать сайтам использовать V8 optimizer  
+- Site and Shields Settings → Дополнительные разрешения:  
+  - Ethereum API: **Block**  
+  - Solana API: **Block**  
+- Использовать Google services для push‑уведомлений: **Выкл**  
+- Автоматически перенаправлять AMP‑страницы: **Вкл**  
+- Автоматически перенаправлять трекинговые URL: **Вкл**  
+- Предотвращать отпечатки по языковым настройкам: **Вкл**  
+- Отправлять «Do Not Track»: **Выкл**  
+- Блокировать Microsoft Recall: **Вкл**
 
-#### Brave News
-- Show Brave News: Off
+### Data Collection
+- Privacy‑preserving product analytics (P3A): **Выкл**  
+- Ежедневный usage ping: **Выкл**  
+- Диагностические отчёты: **Выкл**  
+- Brave Surveys: **Выкл**
 
-#### Cards
-- Click Hide for all of them
-- Cards: Off
+---
+
+## 🌐 Web3
+### Wallet
+- NFT discovery: **Выкл**  
+- Brave Wallet в приватных окнах: **Выкл**
+
+### Web3 Domains
+- Unstoppable Domains: **Disabled**  
+- ENS: **Disabled**  
+- SNS: **Disabled**
+
+---
+
+## 🤖 Leo
+- Иконка Leo в боковой панели: **Выкл**  
+- Leo в контекстном меню: **Выкл**  
+- Tab Focus Mode: **Выкл**
+
+---
+
+## 🔍 Search Engine
+- Обычные окна: `DuckDuckGo` / `Brave` / `Startpage` или другой приватный поисковик  
+- Приватные окна: `DuckDuckGo` / `Brave` / `Startpage` или другой приватный поисковик  
+- Показывать поисковые подсказки: **Выкл**  
+- Web Discovery Project: **Выкл**
+
+---
+
+## 🔑 Autofill and Passwords
+### Password Manager
+- Предлагать сохранять пароли и passkeys: **Выкл**  
+- Автовход: **Выкл**
+
+> <img src="../icons/ic_note.svg" width="22" align="top"> **Примечание:**  
+> Никогда не сохраняйте пароли в браузере. Используйте менеджер паролей. См. [рекомендации](https://github.com/StellarSand/privacy-settings#recommendations-alternatives--reviews).
+
+### Payment Methods
+- Сохранять и автозаполнять платёжные методы: **Выкл**  
+- Разрешать сайтам проверять наличие сохранённых методов: **Выкл**
+
+> <img src="../icons/ic_note.svg" width="22" align="top"> **Примечание:**  
+> Никогда не сохраняйте платёжные данные в браузере. Менеджер паролей может хранить их безопасно.
+
+### Addresses and More
+- Сохранять и автозаполнять адреса: **Выкл**
+
+### Autofill in Private Windows
+- **Выкл**
+
+---
+
+## 🌐 Languages
+- Проверка орфографии: **Выкл**
+
+---
+
+## 📥 Downloads
+- Спрашивать, куда сохранять каждый файл: **Вкл**
+
+---
+
+## 💰 Brave Rewards
+- Перейдите в `brave://rewards`  
+- Если включено → Reset (шестерёнка) → выбрать чекбокс → Reset
+
+---
+
+## 🆕 Additional Settings
+Откройте новую вкладку → Customize
+
+### Background Image
+- Sponsored Images: **Выкл**
+
+### Brave News
+- Brave News: **Выкл**
+
+### Cards
+- Hide для всех  
+- Cards: **Выкл**
