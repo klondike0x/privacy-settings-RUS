@@ -1,35 +1,42 @@
-# <img src="../icons/apple.svg" width="42" align="top"> Apple Account Privacy Settings
+# <img src="../icons/apple.svg" width="42" align="top"> Настройки конфиденциальности Apple Account
 
-Login to [Apple Account](https://account.apple.com/account/manage) using browser.
+Войдите в [Apple Account](https://account.apple.com/account/manage) через браузер.
 
-## Sign-In and Security
+---
 
-#### App-specific passwords
-Don't save any password. Use a password manager instead. Check out [recommendations, alternatives & reviews](https://github.com/StellarSand/privacy-settings#recommendations-alternatives--reviews).
+## 🔑 Вход и безопасность
 
+#### Пароли для приложений
+- Не сохраняйте никакие пароли.  
+- Используйте менеджер паролей вместо этого.  
+- Ознакомьтесь с [рекомендациями, альтернативами и обзорами](https://github.com/StellarSand/privacy-settings#recommendations-alternatives--reviews).
 
+---
 
-## Personal Information
+## 👤 Личная информация
 
-#### Date of Birth
-- Provide false info
+#### Дата рождения
+- Укажите ложную информацию
 
+---
 
+## 💳 Способы оплаты
 
-## Payment Methods
-Don't save any payment info. A password manager can be used to also save payment information.
+- Не сохраняйте платёжные данные.  
+- Менеджер паролей также может хранить платёжную информацию.
 
+---
 
+## 📱 Устройства
 
-## Devices
-- Remove any device you don't use
+- Удалите все устройства, которыми вы не пользуетесь
 
+---
 
+## 🔒 Конфиденциальность
 
-## Privacy
+#### Пол
+- Не выбран / «Не указывать»
 
-#### Gender
-- Not selected or Decline to State
-
-#### iCloud Analytics
-- Share iCloud analytics: Off
+#### Аналитика iCloud
+- Отправка аналитики iCloud: **Выкл**
