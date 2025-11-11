@@ -1,164 +1,138 @@
-# <img src="../icons/android.svg" width="42" align="bottom"> Android 13 Privacy Settings
+# <img src="../icons/android.svg" width="42" align="bottom"> Android 13 — Настройки конфиденциальности
 
-Go to Settings
-
-**The actual location of the settings might differ from device to device. The following are according to stock android.**
-
-
-
-## Network & internet
-
-#### Internet
-- Network preferences >
-  - Turn on Wi-Fi automatically: Off
-  - Notify for public networks: Off
-
-#### Private DNS
-- Private DNS > Private DNS provider hostname: enter the hostname of DNS provider from [this list](https://www.privacyguides.org/en/dns/#recommended-providers) > Save
-
-  Example: For Quad9, enter dns.quad9.net
-
-
-
-## Connected devices
-
-#### Connection preferences
-- Bluetooth: Off
-- Printing > Default Print Service: Off
-- Nearby Share > Device visibility: Off
-- Android Auto: Off
-
-> <img src="../icons/ic_note.svg" width="22" align="top"> **Note**
->
-> Enable the above settings only when required. Remember to turn them off when no longer required.
-
-
-
-## Notifications
-
-#### Notification history
-- Use notification history: Off
-
-#### Sensitive notifications
-- Off
-
-
-
-## Display
-
-#### Lock screen
-- Privacy: Show sensitive content only when unlocked
-
-#### Screen timeout
-- Shortest duration that suits you
-
-
-
-## Accessibility
-
-#### Text-to-speech output
-
-Tap on gear icon next to `Preferred engine`
-
-- Anonymous usage reports: Off
-
-
-
-## Security
-
-#### Screen lock
-- Password, PIN or Pattern. Don't set to `None` or `Swipe`.
-
-After setting screen lock, tap on gear icon.
-
-- Make pattern visible: Off (only available if Screen lock is set to `Pattern`)
-- Lock after screen timeout: Immediately
-- Power button instantly locks: On
-
-#### More security settings
-- SIM card lock >
-  - Lock SIM card: On > Enter default PIN > OK
-  - Change SIM PIN > Enter old and new SIM PIN > OK (Create a secure new SIM PIN)
-  > <img src="../icons/ic_note.svg" width="22" align="top"> **Note**
-  >
-  > - The default PIN code is usually `1234` or `0000`. However, if these two don't work, you should look on SIM card's packaging or contact your SIM provider's customer support.
-  > - If you enter the PIN code wrong 3 times, you'll be asked to enter a PUK (Personal Unlock Key) code. This code can be obtained from the carrier, after they verify you are the rightful owner of the SIM. DO NOT try to guess the PUK code. If you enter it wrong 3 times, the SIM will be permanently locked and you might have to get a new SIM from your carrier.
-- Encryption & credentials >
-  - Encrypt phone: Encrypted
-- Trust agents >
-  - Smart Lock (Google): Off
-
-
-
-## Privacy
-
-#### Permission manager
-- Review each permission and disable accordingly (choose which apps can have access to camera, microphone, gps, contacts etc. If any app doesn't need something, turn it off.)
-
-#### Show passwords
-- Off
-
-#### Notifications on lock screen
-- Show sensitive content only when unlocked
-
-#### Personalize using app data
-- Off
-
-#### Autofill service from Google
-- Use Autofill with Google: Off
-
-#### Ads
-- Reset advertising ID > OK
-- Opt out of Ads Personalization: On > OK
-
-#### Usage & diagnostics
-- Off
-> <img src="../icons/ic_tip.svg" width="22" align="top"> **Tip**
->
-> Additionally some OEMs include few more settings for personalized ads & diagnostics.
-<br>Search in your phone settings for `User Experience Program`, `Personalized ad recommendations`, `Send diagnostic data` or something similar.
-
-
-
-## Location
-- Use location: Off (enable only when needed, like for navigation apps, and turn off when not required)
-
-#### Location Services
-- Google Location Accuracy > Improve Location Accuracy: Off
-- Wi-Fi scanning: Off
-- Bluetooth scanning: Off
-
-
-
-## Google
-
-#### Personalize using shared data
-- Device Contacts: Off
-
-#### Settings for Google apps
-- Search, Assistant & Voice >
-  - General >
-    - Autocomplete settings > Autocomplete with trending searches: Off
-    - Discover: Off
-  - Privacy & Security >
-    - Search customization: Off
-
-
-
-## System
-
-#### Multiple users
--  Add users from lock screen: Off
-
-
-
-## Wi-Fi MAC Randomization
-Go to `About phone` > tap `Build Number` 7 times. This will unlock Developer options.
-<br>Now go to `System` > Developer options > Wi-fi non persistent MAC randomization: On
-
+Перейдите в **Настройки**  
+*(расположение пунктов может отличаться в зависимости от устройства; ниже приведены варианты для «чистого» Android).*
 
 ---
 
+## 🌐 Сеть и интернет
 
-- Some other settings are same as [Google Account settings](https://github.com/StellarSand/privacy-settings/blob/main/Privacy%20Settings/Google-Account.md).
-- Gboard settings are available [here](https://github.com/StellarSand/privacy-settings/blob/main/Privacy%20Settings/Gboard.md).
+### Интернет — Предпочтения сети
+- Автоматически включать Wi‑Fi: **Выкл**  
+- Уведомления о публичных сетях: **Выкл**
+
+### Приватный DNS
+- Приватный DNS → Хостнейм провайдера → ввести адрес из [списка](https://www.privacyguides.org/en/dns/#recommended-providers) → Сохранить  
+  Пример: для Quad9 — `dns.quad9.net`
+
+---
+
+## 📱 Подключённые устройства
+
+### Предпочтения подключения
+- Bluetooth: **Выкл**  
+- Печать → Служба печати по умолчанию: **Выкл**  
+- Nearby Share → Видимость устройства: **Выкл**  
+- Android Auto: **Выкл**
+
+> 📝 **Примечание:** включайте эти функции только при необходимости и отключайте после использования.
+
+---
+
+## 🔔 Уведомления
+
+### История уведомлений
+- Использовать историю уведомлений: **Выкл**
+
+### Чувствительные уведомления
+- **Выкл**
+
+---
+
+## 🖥️ Экран
+
+### Экран блокировки
+- Конфиденциальность: показывать чувствительный контент только при разблокировке
+
+### Таймаут экрана
+- Минимально удобный
+
+---
+
+## ♿ Специальные возможности
+
+### Синтез речи
+- Значок шестерёнки рядом с «Предпочитаемый движок» → Отправка анонимных отчётов: **Выкл**
+
+---
+
+## 🛡️ Безопасность
+
+### Блокировка экрана
+- Использовать пароль, PIN или шаблон (не «Нет» и не «Свайп»)  
+- Видимый шаблон: **Выкл** (если выбран шаблон)  
+- Блокировка после таймаута: **Сразу**  
+- Кнопка питания мгновенно блокирует: **Вкл**
+
+### Дополнительные настройки безопасности
+- Блокировка SIM: **Вкл**  
+- Изменить PIN SIM → создать надёжный новый PIN  
+
+> 📝 **Примечание:** стандартный PIN часто `1234` или `0000`. Если не подходит — смотрите упаковку SIM или обратитесь к оператору.  
+> После 3 неверных попыток потребуется PUK‑код. Не угадывайте его — при 3 ошибках SIM блокируется навсегда.
+
+### Шифрование и учётные данные
+- Телефон зашифрован
+
+### Доверенные агенты
+- Smart Lock (Google): **Выкл**
+
+---
+
+## 🔒 Конфиденциальность
+
+- Менеджер разрешений: проверить и отключить лишние  
+- Показывать пароли: **Выкл**  
+- Уведомления на экране блокировки: показывать только при разблокировке  
+- Персонализация с использованием данных приложений: **Выкл**  
+- Автозаполнение Google: **Выкл**  
+- Реклама:  
+  - Сбросить рекламный ID → OK  
+  - Отключить персонализированную рекламу: **Вкл** → OK  
+- Использование и диагностика: **Выкл**
+
+> 💡 **Совет:** у некоторых производителей есть дополнительные настройки («Программа улучшения», «Персонализированные рекомендации», «Отправка диагностических данных»). Найдите и отключите их.
+
+---
+
+## 📍 Геолокация
+
+- Использовать геолокацию: **Выкл** (включать только при необходимости, например для навигации)  
+
+### Службы геолокации
+- Google Location Accuracy → Улучшенная точность: **Выкл**  
+- Сканирование Wi‑Fi: **Выкл**  
+- Сканирование Bluetooth: **Выкл**
+
+---
+
+## 🔎 Google
+
+### Персонализация с использованием общих данных
+- Контакты устройства: **Выкл**
+
+### Настройки приложений Google
+- Поиск, Ассистент и Голос → Общие:  
+  - Автозаполнение с трендовыми запросами: **Выкл**  
+  - Discover: **Выкл**  
+- Конфиденциальность и безопасность → Настройка поиска: **Выкл**
+
+---
+
+## ⚙️ Система
+
+### Несколько пользователей
+- Добавление с экрана блокировки: **Выкл**
+
+---
+
+## 📶 Рандомизация MAC‑адреса
+
+- Настройки → О телефоне → 7 раз нажать «Номер сборки» → откроются «Параметры разработчика»  
+- Система → Параметры разработчика → Wi‑Fi → Усиленная рандомизация MAC: **Вкл**
+
+---
+
+### Дополнительно
+- Некоторые настройки совпадают с [Google Account](https://github.com/StellarSand/privacy-settings/blob/main/Privacy%20Settings/Google-Account.md).  
+- Настройки Gboard доступны [здесь](https://github.com/StellarSand/privacy-settings/blob/main/Privacy%20Settings/Gboard.md).
