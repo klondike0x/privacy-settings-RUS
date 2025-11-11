@@ -1,85 +1,76 @@
-# <img src="../icons/cromite.png" width="42" align="top"> Cromite Privacy Settings
+# <img src="../icons/cromite.png" width="42" align="top"> Настройки конфиденциальности Cromite
 
-Go to Settings.
+Перейдите в **Settings**
 
+---
 
+## 🔍 Поисковая система
+- Использовать: **DuckDuckGo**
 
-## Search engine
-- DuckDuckGo
+---
 
+## 🔒 Privacy and Security
+- Third‑party cookies: **Block third‑party cookies**  
+- Send a “Do Not Track” request: **Off**  
+- Global Privacy Control “Sec‑GPC”: включать только в юрисдикциях, где это работает как «Do Not Sell» (например, Калифорния, Колорадо, Коннектикут, ЕС, Великобритания, Невада, Юта, Вирджиния).  
+  > <img src="../icons/ic_note.svg" width="22" align="top"> **Примечание:**  
+  > Если вы не проживаете в этих регионах, отключите GPC, так как оно **может** использоваться для отпечатков браузера.  
+- Access payment methods: **Off**  
+- Lock Incognito tabs when you leave Cromite: **On**  
+- Always incognito mode: **On**  
+- Enable history: **Off**  
+- Always use secure connections: **On**  
+  - Предупреждать о небезопасных публичных и приватных сайтах  
+- Use secure DNS: **On**  
+  - Провайдер: `NextDNS` / `Cloudflare` или выбрать `Custom` и указать URL из [списка](https://www.privacyguides.org/en/dns/#recommended-providers)  
+  - Пример: для Quad9 — `https://dns.quad9.net/dns-query`  
+- Improve search suggestions: **Off**
 
+---
 
-## Privacy and security
-- Third-party cookies: Block third-party cookies
-- Send a "Do Not Track" request: Off
-- Global Privacy Control "Sec-GPC": Enable only for jurisdictions mentioned in the note below
-  > <img src="../icons/ic_note.svg" width="22" align="top"> **Note**
-  >
-  > [Global Privacy Control (GPC)](https://globalprivacycontrol.org/) operates as a “Do Not Sell” mechanism in some US states such as California, Colorado and Connecticut. It may also be used to indicate an opt-out of targeted advertising or general request to limit the sale or sharing of your personal data in those jurisdictions, as well as in jurisdictions such as the EU, UK, Nevada, Utah and Virginia.
-  > <br>If you don't reside in these jurisdictions, disable this, as it **may** be used for potential browser fingerprinting purposes.
+## 🔑 Password Manager
+- Save passwords: **Off**  
+- Auto Sign‑in: **Off**
 
-- Access payment methods: Off
-- Lock Incognito tabs when you leave Cromite: On
-- Always incognito mode >
-  - Enable history: Off
-- Always use secure connections >
-  - On
-  - Warns you for insecure public & private sites
-- Use secure DNS >
-  - On
-  - Choose another provider > `NextDNS`/`Cloudflare` or select `Custom` and provide URL for other secure DNS from [this list](https://www.privacyguides.org/en/dns/#recommended-providers)
+> <img src="../icons/ic_note.svg" width="22" align="top"> **Примечание:**  
+> Никогда не сохраняйте пароли в браузере. Используйте менеджер паролей. См. [рекомендации](https://github.com/StellarSand/privacy-settings#recommendations-alternatives--reviews).
 
-    Example: For Quad9, enter https://dns.quad9.net/dns-query
+---
 
-- Improve search suggestions: Off
+## 🛡️ Adblock Plus
+- Enable Adblock Plus: **On**  
+- Filter lists: выбрать списки в зависимости от языка  
+- Anti‑circumvention и snippets: **On**
 
+---
 
+## 🛡️ Legacy Adblock
+- Autoupdate disabled: **Off**
 
-## Password Manager
-- Save passwords: Off
-- Auto Sign-in: Off
+---
 
-> <img src="../icons/ic_note.svg" width="22" align="top"> **Note**
->
-> Never save passwords in browsers. Use a password manager instead. Check out [recommendations, alternatives & reviews](https://github.com/StellarSand/privacy-settings#recommendations-alternatives--reviews).
+## 💳 Payment Methods
+- Save and fill payment methods: **Off**
 
+> <img src="../icons/ic_note.svg" width="22" align="top"> **Примечание:**  
+> Никогда не сохраняйте платёжные данные в браузере. Менеджер паролей может хранить их безопасно.
 
+---
 
-## Adblock Plus settings
-- Enable Adblock Plus: On
-- Filter lists: Select lists based on your language
-- Enable anti-circumvention and snippets: On
+## 🏠 Addresses and More
+- Save and fill addresses: **Off**
 
+---
 
+## 🌐 Site Settings
+- Your device use: **Off**  
+- Intrusive ads: **Off**  
+- V8 optimizer: **Off**  
+- JavaScript JIT: **Off**  
+- Timezone override: **Random**  
+- Viewport Size Protection: **On**
 
-## Legacy Adblock settings
-- Autoupdate disabled: Off
+---
 
-
-
-## Payment methods
-- Save and fill payment methods: Off
-
-> <img src="../icons/ic_note.svg" width="22" align="top"> **Note**
->
-> Never save payment info in browsers. A password manager can be used to also save payment information.
-
-
-
-## Addresses and more
-- Save and fill addresses: Off
-
-
-
-## Site settings
-- Your device use: Off
-- Intrusive ads: Off
-- V8 optimizer: Off
-- JavaScript JIT: Off
-- Timezone override: Random
-- Viewport Size Protection: On
-
-
-
-## Downloads
-- Ask where to save files: On
+## 📥 Downloads
+- Ask where to save files: **On**
