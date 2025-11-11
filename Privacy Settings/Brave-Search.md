@@ -1,13 +1,11 @@
-# <img src="../icons/brave_search.svg" width="42" align="top"> Brave Search Privacy Settings
+# <img src="../icons/brave_search.svg" width="42" align="top"> Brave Search — Настройки конфиденциальности
 
-Go to [Brave Search settings](https://search.brave.com/settings)
+Перейдите в [настройки Brave Search](https://search.brave.com/settings)
 
+---
 
+## 🔍 Анонимные локальные результаты
+- **Вкл**
 
-## Anonymous local results
-- On
-
-
-
-## Anonymous usage metrics
-- Off
+## 📊 Анонимные метрики использования
+- **Выкл**
