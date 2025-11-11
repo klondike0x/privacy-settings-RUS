@@ -1,127 +1,125 @@
-# <img src="../icons/brave.svg" width="42" align="top"> Brave Browser Mobile Privacy Settings
+# <img src="../icons/brave.svg" width="42" align="top"> Brave Browser Mobile — Настройки конфиденциальности
 
-Go to Settings
+Перейдите в **Settings**
 
+---
 
+## 🛡️ Brave Shields & Privacy
+- Блокировать трекеры и рекламу: **Block trackers and ads (Aggressive)**  
+- Автоматически перенаправлять AMP‑страницы: **Вкл**  
+- Автоматически перенаправлять трекинговые URL: **Вкл**  
+- Обновлять соединения до HTTPS: **Require all connections to use HTTPS (strict)**  
+- Блокировать cookies: **Block third‑party cookies**  
+- Блокировать отпечатки (fingerprinting): **Вкл**  
+- Предотвращать отпечатки через языковые настройки: **Вкл**  
 
-## Brave shields & privacy
-- Block trackers and ads: Block trackers and ads (Aggressive)
-- Auto-redirect AMP pages: On
-- Auto-redirect tracking URLs: On
-- Upgrade connections to HTTPS: Require all connections to use HTTPS (strict)
-- Block Cookies: Block third-party cookies
-- Block Fingerprinting: On
-- Prevent fingerprinting via language settings: On
-- Content Filtering >
-  - Fanboy's Annoyances + uBO Annoyances: On
-  - Select other filter lists based on your language & preferences
-- Safe Browsing: Standard protection
-- Allow screenshots in private tabs: Off
-- Lock Private tabs when you leave Brave: On
-- Allow sites to check if you have payment methods saved: Off
-- Unstoppable Domains: Disabled
-- Ethereum Name Service >
-  - Resolve method: Disabled
-  - ENS offchain lookup: Disabled
-- Solana Name Service: Disabled
-- Use secure DNS >
-  - On
-  - Choose another provider > `NextDNS`/`Cloudflare` or select `Custom` and provide URL for other secure DNS from [this list](https://www.privacyguides.org/en/dns/#recommended-providers)
-    
-    Example: For Quad9, enter https://dns.quad9.net/dns-query
+### Content Filtering
+- Fanboy’s Annoyances + uBO Annoyances: **Вкл**  
+- Выберите другие списки фильтров в зависимости от языка и предпочтений  
 
-- Manage V8 security >
-  - V8 optimizer: Off
-- Block cookie consent notices: On
-- Send a "Do Not Track" request: Off
-- Allow privacy-preserving product analytics (P3A): Off
-- Automatically send diagnostic reports: Off
-- Automatically send daily usage ping to Brave: Off
+### Дополнительно
+- Safe Browsing: **Standard protection**  
+- Разрешить скриншоты в приватных вкладках: **Выкл**  
+- Блокировать приватные вкладки при выходе из Brave: **Вкл**  
+- Разрешить сайтам проверять наличие сохранённых платёжных методов: **Выкл**  
+- Unstoppable Domains: **Disabled**  
+- Ethereum Name Service → Resolve method: **Disabled**, ENS offchain lookup: **Disabled**  
+- Solana Name Service: **Disabled**  
 
+### Secure DNS
+- Использовать защищённый DNS: **Вкл**  
+- Провайдер: `NextDNS` / `Cloudflare` или выбрать `Custom` и указать URL из [списка](https://www.privacyguides.org/en/dns/#recommended-providers)  
+  Пример: для Quad9 — `https://dns.quad9.net/dns-query`
 
+### Manage V8 Security
+- V8 optimizer: **Выкл**  
+- Блокировать уведомления о согласии на cookies: **Вкл**  
+- Отправлять «Do Not Track»: **Выкл**  
+- Разрешить P3A (privacy‑preserving product analytics): **Выкл**  
+- Автоматически отправлять диагностические отчёты: **Выкл**  
+- Автоматически отправлять ежедневный usage ping: **Выкл**
 
-## Brave News
-- Show Brave News: Off
+---
 
+## 📰 Brave News
+- Show Brave News: **Выкл**
 
+---
 
-## Brave Wallet
-- Default Ethereum wallet: None
-- Default Solana wallet: None
-- Display Web3 notifications: Off
-- Enable NFT discovery: Off
+## 💳 Brave Wallet
+- Ethereum wallet по умолчанию: **None**  
+- Solana wallet по умолчанию: **None**  
+- Web3 уведомления: **Выкл**  
+- NFT discovery: **Выкл**
 
+---
 
+## 🤖 Leo
+- Автозаполнение в адресной строке: **Выкл**  
+- Сохранять историю разговоров: **Выкл**
 
-## Leo
-- Show autocomplete suggestions in address bar: Off
-- Store my conversation history: Off
+---
 
+## 🔍 Search Engines
+- Standard Tab: `DuckDuckGo` или другой уважающий приватность (Brave, Startpage и т. д.)  
+- Private Tab: `DuckDuckGo` или другой уважающий приватность  
+- Показывать поисковые подсказки: **Выкл**  
+- Показывать топ‑подсказки: **Выкл**  
+- Web Discovery Project: **Выкл**
 
+---
 
-## Search engines
-- Standard Tab: `DuckDuckGo` or any other privacy respecting search engine like `Brave`, `Startpage` etc.
-- Private Tab: `DuckDuckGo` or any other privacy respecting search engine like `Brave`, `Startpage` etc.
-- Show search suggestions: Off
-- Show top suggestions: Off
-- Web Discovery Project: Off
+## 🔑 Brave Password Manager
+- Сохранять пароли: **Выкл**  
+- Автовход: **Выкл**
 
+> <img src="../icons/ic_note.svg" width="22" align="top"> **Примечание:**  
+> Никогда не сохраняйте пароли в браузере. Используйте менеджер паролей. См. [рекомендации](https://github.com/StellarSand/privacy-settings#recommendations-alternatives--reviews).
 
+---
 
-## Brave Password Manager
-- Save passwords: Off
-- Auto Sign-in: Off
+## 📊 Privacy Report
+- Privacy Report: **Вкл**
 
-> <img src="../icons/ic_note.svg" width="22" align="top"> **Note**
->
-> Never save passwords in browsers. Use a password manager instead. Check out [recommendations, alternatives & reviews](https://github.com/StellarSand/privacy-settings#recommendations-alternatives--reviews).
+---
 
+## 🌐 Site Settings
+- Third‑party cookies → Block third‑party cookies  
+- Allow related sites to see your activity in the group: **Выкл**
 
+---
 
-## Privacy Report
-- Privacy Report: On
+## 📥 Downloads
+- Спрашивать, куда сохранять файлы (если SD‑карта обнаружена): **Вкл**  
+- Автоматически открывать при возможности: **Выкл**  
+- Показывать уведомления о прогрессе загрузки: **Вкл**
 
+---
 
+## 🎨 Appearance
+- Brave Rewards icon: **Выкл**  
+- Brave Ads: **Выкл**
 
-## Site settings
-- Third-party cookies >
-  - Block third-party cookies
-  - Block third-party cookies > Allow related sites to see your activity in the group: Off
+---
 
+## 🆕 New Tab Page
+- Show Sponsored Images: **Выкл**  
+- Show Top Sites: **Выкл**
 
+---
 
-## Downloads
-- Ask where to save files (if SD card is detected): On
-- Automatically open when possible: Off
-- Show download progress notifications: On
+## 💳 Payment Methods
+- Сохранять и автозаполнять платёжные методы: **Выкл**
 
+> <img src="../icons/ic_note.svg" width="22" align="top"> **Примечание:**  
+> Никогда не сохраняйте платёжные данные в браузере. Менеджер паролей может хранить их безопасно.
 
+---
 
-## Appearance
-- Brave Rewards icon: Off
-- Brave Ads: Off
+## 🏠 Addresses and More
+- Сохранять и автозаполнять адреса: **Выкл**
 
+---
 
-
-## New Tab Page
-- Show Sponsored Images: Off
-- Show Top Sites: Off
-
-
-
-## Payment methods
-- Save and fill payment methods: Off
-
-> <img src="../icons/ic_note.svg" width="22" align="top"> **Note**
->
-> Never save payment info in browsers. A password manager can be used to also save payment information.
-
-
-
-## Addresses and more
-- Save and fill addresses: Off
-
-
-
-## Autofill in private tabs
-- Off
+## 🔒 Autofill in Private Tabs
+- **Выкл**
